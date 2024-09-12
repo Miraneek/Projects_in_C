@@ -36,7 +36,7 @@ int main(void) {
 
     float a, b;
     char op;
-    printf("calculate: ");
+    printf("calculate (a op b): ");
     scanf("%f %c %f", &a, &op , &b);
     if (b == 0 && op == '/') {
         fprintf(stderr, "Error: Division by zero\n");
