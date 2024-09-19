@@ -3,4 +3,6 @@ project(prc C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(prc main.c)
+#[[add_executable(prc Kalkulačka/main.c)]]
+add_executable(prc house/main.c)
+

@@ -27,7 +27,7 @@ float calculate(float a, float b, char op) {
             return divide(a, b);
         default:
             fprintf(stderr, "Error: Invalid operator\n");
-            return 1;
+        return 1;
     }
 }
 
