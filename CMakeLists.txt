@@ -21,4 +21,4 @@ add_executable(prc bogoSort/main.c
         bogoSort/sorting.c
         )]]
 
-add_executable(prc SortingAlgorythms/main.c)
+add_executable(prc Sortingalgorithms/main.c)
